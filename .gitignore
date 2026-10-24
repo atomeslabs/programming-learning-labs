@@ -1,1 +1,111 @@
 
+
+# ============================================================
+# Programming Learning Labs
+# C / Assembly x86-x64 / Python
+# Windows 11 / VS Code
+# ============================================================
+
+# --- Windows ---
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# --- Editors / IDEs ---
+.vs/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Keep shared VS Code settings out of Git initially.
+.vscode/
+
+# --- C / C++ build artifacts ---
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+*.o
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.gcda
+*.gcno
+*.gcov
+*.dSYM/
+
+# Build directories
+build/
+Build/
+debug/
+Debug/
+release/
+Release/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# --- Assembly (NASM / MASM) ---
+*.lst
+*.map
+*.exp
+*.res
+*.sbr
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+.wheels/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling and tests
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+
+# --- Secrets and local configuration ---
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+
+# --- Temporary files and logs ---
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.cache
+tmp/
+temp/
